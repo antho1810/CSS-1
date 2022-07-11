@@ -1,0 +1,186 @@
+/* Esto es un comentario */
+#titulo {
+  color: tomato;
+}
+
+p.especial {
+  color: aqua;
+}
+
+p.texto {
+  color: slateblue;
+}
+
+div p {
+  color: yellowgreen;
+}
+
+div h2,
+div h3 {
+  color: brown;
+}
+
+/* Selector UNIVERSAL
+ * {
+  font-size: 24px;
+  color: black;
+} */
+
+/* Hexadecimal 
+.color{
+    color: #110c71;
+} 
+*/
+
+/* RGB 
+.color{
+    color: rgb(85, 255, 21);
+} 
+*/
+
+.color {
+  /* border: 4px rgb(210, 226, 33) groove; */
+  border-style: double;
+  border-color: chartreuse;
+  border-radius: 5px;
+  border-width: 2rem;
+}
+
+/* Tipos de bordes
+- dotted
+- dashed
+- solid
+- double
+- groove
+- ridge
+- inset
+- outset
+- none
+- hidden
+ */
+
+#fondo {
+    background-color: rgba(255, 0, 0);
+    /* opacity: 0.3; */
+    height: 500px;
+    background: #f00 url('elephant.jpg') repeat-y center bottom / 100px 100px;
+}
+
+.margen{
+    background-color: chocolate ;
+    margin: 15px;
+    padding: 30px 15px 5px;
+    border: solid 1px black;
+    height: 100px;
+    width: 150px;
+    overflow: hidden;
+    outline: 1px solid red;
+}
+
+.text{
+    text-align: center;
+    text-decoration: double;
+    text-shadow: 3px 4px 5px blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a:link{
+    color: burlywood;
+}
+
+a:visited{
+    color: #f00;
+
+}
+
+a:hover{
+    color: darkgoldenrod;
+}
+
+a:active{
+    color: greenyellow;
+}
+
+ul{
+    background-color: #f00;
+    list-style-type: georgian;
+    /* padding-left: 0; */
+    /* list-style-position: inside; */
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: solid 1px #eee;
+    padding: 5px;
+}
+
+th{
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: #eee;
+}
+tr:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    max-width: 300px;
+    background-color: chartreuse;
+}
+
+.inline{
+    display: inline;
+}
+
+#position {
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+
+.left{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.right{
+    float: right;
+}
+
+.container{
+     height: 100px;
+}
+
+.colum{
+
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3%;
+}
+
+.inline-block{
+    display: inline;
+    height: 55px;
+    background-color: #f00;
+}
+
+.center{
+    width: 200px;
+    margin: 0 auto;
+    padding: 50px 0;
+    background-color: aqua;
+    text-align: center;
+}
